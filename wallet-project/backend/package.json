@@ -1,0 +1,20 @@
+{
+  "name": "secure-wallet-backend",
+  "version": "1.0.0",
+  "description": "Backend for Secure Digital Payment Wallet - Attack & Defense Simulation",
+  "main": "index.js",
+  "scripts": {
+    "start:secure": "node secure/index.js",
+    "start:vulnerable": "node vulnerable/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "express-validator": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.10.2",
+    "sequelize": "^6.37.3"
+  }
+}
